@@ -1,13 +1,29 @@
-
+/**
+ * Written by: Griffin Seibold
+ * 1/30/2019
+ * Item is a representation of an item in the database. An item consists
+ * of a name, id, description, selling price, buying price, buying quantity,
+ * selling quantity, the profit margin and when it was last updated.
+ */
 public class Item {
-    public String name;
-    public int id;
-    public String description;
-    public String sellPrice;
-    public String buyPrice;
-    public String sellQuantity;
-    public String buyQuantity;
-    public int margin;
+    private String name;
+    private int id;
+    private String sellPrice;
+    private String buyPrice;
+    private String sellQuantity;
+    private String buyQuantity;
+    private String lastUpdated;
+
+    /**
+     * The following are basic getters and setter for an Item object.
+     */
+    public String getLastUpdated() {
+        return lastUpdated;
+    }
+
+    public void setLastUpdated(String lastUpdated) {
+        this.lastUpdated = lastUpdated;
+    }
 
     public int getMargin(){
         return Integer.parseInt(buyPrice)-Integer.parseInt(sellPrice);
@@ -27,14 +43,6 @@ public class Item {
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public String getSellPrice() {
