@@ -17,7 +17,7 @@ public class SQLPopulater {
      * @return connection
      */
     private Connection connect() {
-        String url = "jdbc:sqlite:/Users/griffin/Projects/OSRSFlipFinderDB.db";
+        String url = "jdbc:sqlite:/Users/griffin/IdeaProjects/OSRS-Flip-Finder/src/OSRSFlipFinderDB.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
