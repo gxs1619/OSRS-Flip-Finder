@@ -19,6 +19,6 @@ on.
 
 The GUI is not included with this code, but is available upon request.
 
-![alt text](https://imgur.com/a/rpcFWyQ)
+![](https://imgur.com/a/rpcFWyQ)
 
-![alt text](https://imgur.com/a/npQKxjd)
+![](https://imgur.com/a/npQKxjd)
