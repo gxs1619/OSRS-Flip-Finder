@@ -17,8 +17,5 @@ on.
 
 ## Disclaimer
 
-The GUI is not included with this code, but is available upon request.
-
-![](https://imgur.com/a/rpcFWyQ)
-
-![](https://imgur.com/a/npQKxjd)
+The GUI is not included with this code, but is available upon request. Pictures of the GUI are located
+on my website at griffinseibold.com
