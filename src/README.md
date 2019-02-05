@@ -14,8 +14,3 @@ in a javafx table to view with certain constraints on supply, demand and profit.
 a maven project written in java with an SQLite database. The server is a multi-threaded server
 that allows clients to connect, disconnect and request updates on items that they double click
 on.
-
-## Disclaimer
-
-The GUI is not included with this code, but is available upon request. Pictures of the GUI are located
-on my website at griffinseibold.com
